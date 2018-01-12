@@ -1,8 +1,8 @@
 # MiniGPS-Info-Multi-OLED
-ESP8266, NEO-6M GPS, OLED 0.96" (SSD1306)  oder 1.3" (SH1106)
+ESP8266, NEO-6M GPS, OLED 0.96" (SSD1306) oder 1.3" (SH1106)
 
 
-<a href="https://youtu.be/z9Ir-hZvLQg">link text</a>
+<a href="https://youtu.be/z9Ir-hZvLQg">ESP8266 mit einen NEO-6M GPS und OLED 0.96" oder 1.3" DIsplay</a>
 
 
 Folgende Libs werden benötigt (brzo i2c), (TinyGPS++), (SoftwareSerial)
@@ -14,3 +14,6 @@ Funktionsprüfung: GPS Modul mit strom versorgen (bei mir 3.3V), wenn es blink, 
 ![001](https://user-images.githubusercontent.com/35377000/34887293-43c720e6-f7c6-11e7-91c8-a552c8d1847b.jpg)
 
 ![002](https://user-images.githubusercontent.com/35377000/34887318-5f641c96-f7c6-11e7-8bf4-2821acfe8d32.jpg)
+
+*ToDo Liste:
+

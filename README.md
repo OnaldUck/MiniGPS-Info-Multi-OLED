@@ -1,0 +1,2 @@
+# MiniGPS-Info-Multi-OLED
+ESP8266, NEO-6M GPS, OLED 0.96" (SSD1306)  oder 1.3" (SH1106)

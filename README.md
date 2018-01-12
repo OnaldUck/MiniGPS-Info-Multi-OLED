@@ -2,7 +2,7 @@
 ESP8266, NEO-6M GPS, OLED 0.96" (SSD1306) oder 1.3" (SH1106)
 
 
-[ESP8266 mit einen NEO-6M GPS und OLED 0.96" oder 1.3" Display - YouTube]([https://youtu.be/z9Ir-hZvLQg)
+[ESP8266 mit einen NEO-6M GPS und OLED 0.96" oder 1.3" Display - YouTube](https://youtu.be/z9Ir-hZvLQg)
 
 
 Folgende Libs werden benötigt (brzo i2c), (TinyGPS++), (SoftwareSerial)

@@ -17,7 +17,7 @@ Funktionsprüfung: GPS Modul mit strom versorgen (bei mir 3.3V), wenn es blink, 
 
 ## ToDo Liste
 - Der Buchstabe **h** von **km/h** wird abgeschnitten über 100 km/h
-- Distance To Home Berechnung ist deffinitv falsch
+- "Distance To Home" Berechnung ist deffinitv falsch
 - Tasten für PAUSE, NEXT und PREVIEW nutzen
 - GPS Abtastrate des NEO-6M für höhere Genauigkeit auf 10Hz einstellen
 - Himmelsrichtung als Pfleil anzeigen

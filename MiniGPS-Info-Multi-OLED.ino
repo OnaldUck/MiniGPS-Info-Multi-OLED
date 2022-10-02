@@ -10,7 +10,7 @@
 //SH1106Brzo  display(0x3c, 3, 1);      // (3,1) wenn das Display direct am NodMCU steckt (Daniel Eichhoff)
 
 #include "SSD1306Brzo.h"                // (3,1) wenn das Display direct am NodMCU steckt   - SH1306 = 1.3" OLED
-SSD1306Brzo  display(0x3c, 5, 4);      // (5,4) WeMos inc 0.96 Display, 18650 Batterie und Knopf
+SSD1306Brzo  display(0x3c, 5, 4);      // (5,4) WeMos inc 0.96 Display, 18650 Batterie und Knopf (ADDRESS, SDA, SCL)
 
 TinyGPSPlus gps;                      // Create an Instance of the TinyGPS++ object called gps
 SoftwareSerial ss(D3, D4);             // (3, 15) (2,0) RX, TX Pins for serial connection to the GPS device - über Kreuz !

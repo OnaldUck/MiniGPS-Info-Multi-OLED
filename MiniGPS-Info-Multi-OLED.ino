@@ -4,11 +4,11 @@
 // manchmal läßt sich der ESP nicht beschreiben, wenn das GPS Modul dran ist >> einfach VCC von GPS abziehen
 // Funktionsprüfung: GPS Modul mit strom versorgen (bei mir 3.3V), wenn es blink, bekommt es Daten. Falls nichts erscheint (nicht ein Mal Uhrzeit) >> RX, TX tauschen
 
-#include <TinyGPS++.h>       // Tiny GPS Plus Library Ver. 1.0.3 https://github.com/neosarchizo/TinyGPS
-#include <SoftwareSerial.h>  // Software Serial Ver. 8.1.0 Library so we can use other Pins for communication with the GPS module https://github.com/plerup/espsoftwareserial/
+#include <TinyGPS++.h>       // Tiny GPS Plus Library (Ver. 1.0.3) https://github.com/neosarchizo/TinyGPS
+#include <SoftwareSerial.h>  // Software Serial (Ver. 8.1.0) Library so we can use other Pins for communication with the GPS module https://github.com/plerup/espsoftwareserial/
 #include <SSD1306Brzo.h>          // (3,1) wenn das Display direct am NodMCU steckt   - SH1306 = 1.3" OLED https://github.com/ThingPulse/esp8266-oled-ssd1306
 //SH1106Brzo  display(0x3c, 3, 1);      // (3,1) wenn das Display direct am NodMCU steckt (Daniel Eichhoff)
-#include <brzo_i2c.h>         // Brzo I2C Ver. 1.3.1 (1.3.3 spuckt einen Fehler aus) https://github.com/pasko-zh/brzo_i2c
+#include <brzo_i2c.h>         // Brzo I2C (Ver. 1.3.1) (1.3.3 spuckt einen Fehler aus) https://github.com/pasko-zh/brzo_i2c
 
 
 SSD1306Brzo display(0x3c, 5, 4);  // (5,4) WeMos inc 0.96 Display, 18650 Batterie und Knopf (ADDRESS, SDA, SCL)
